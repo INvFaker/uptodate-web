@@ -7,188 +7,223 @@
 		<title>Document</title>
 		<!-- css -->
 		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- swiper link -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 	</head>
 	<body>
 		<header>
-			<nav class="navbar">
-				<div class="logo">
-					<img src="assets/img/uptodate-logo.png" alt="UptoDate" />
-				</div>
-				<div class="nav-list">
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="#news">News</a></li>
-						<li><a href="#trend">Trend</a></li>
-						<li><a href="#about">About us</a></li>
-					</ul>
-					<ul class="contact-btn">
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
+			<nav>
+				<img
+					src="./assets/img/uptodate-logo.png"
+					alt="uptodate image"
+					width="120px"
+				/>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="#news">News</a></li>
+					<li><a href="#trends">Trends</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#about">About</a></li>
+				</ul>
 			</nav>
-			<div class="hero-section">
-				<div class="welcome-desc">
-					<h1>
-						Discover <br />
-						What's Happening <br />
-						With Us
-					</h1>
+		</header>
+		<main>
+			<section id="home">
+				<div>
+					<h1>Discover What's Happening With Us</h1>
 					<p>
-						Welcome to "up to date", your source for the latest news and trends.
-						Stay informed and be ahead of the curve with our updates.
+						Welcome to "up to date", your source for the latest news
+						and trends. Stay informed and be ahead of the curve with
+						our updates.
 					</p>
 				</div>
-			</div>
-		</header>
-
-		<main>
-			<section id="news" class="news">
-				<h2>News</h2>
-				<article class="box">
-					<div class="no">Natural Disaster</div>
-					<div class="news-article article">
-						<img src="assets/img/news-content-1.jpg" alt="" />
-						<div class="content-desc">
-							<h3>What caused the earth quake in turkey and syria</h3>
-							<p>
-								The area of Turkey and Syria that has been hardest hit by
-								Monday's 7.8-magnitude earthquake and its afterschocks is known
-								for having big....
-							</p>
-							<a class="btn-go" href="">
-								<img src="assets/img/arrow-right.svg" alt="readmore" />
-							</a>
-						</div>
-					</div>
-					<div class="go">
-						<a href="">
-							<img src="assets/img/arrow-right.svg" alt="readmore" />
-						</a>
-					</div>
-				</article>
-				<article class="box">
-					<div class="no">Health</div>
-					<div class="news-article article">
-						<img src="assets/img/news-content-2.jpg" alt="" />
-						<div class="content-desc">
-							<h3>
-								No new Covid variants emerged during China's recent outbreak:
-								Lancet study
-							</h3>
-							<p>
-								The results represent a snapshot of the pandemic in China, due
-								to the characteristics of Beijing's population and the
-								circulation of highly transmissible COVID-19 strains there...
-							</p>
-							<a class="btn-go" href="">
-								<img src="assets/img/arrow-right.svg" alt="readmore" />
-							</a>
-						</div>
-					</div>
-					<div class="go">
-						<a href="">
-							<img src="assets/img/arrow-right.svg" alt="readmore" />
-						</a>
-					</div>
-				</article>
-				<article class="box">
-					<div class="no">Business</div>
-					<div class="news-article article">
-						<img src="assets/img/news-content-3.jpg" alt="" />
-						<div class="content-desc">
-							<h3>
-								Adidas says dropping Kanye West could cost it more than $1
-								billion in sales
-							</h3>
-							<p>
-								The company warned Thursday that it’s expected to lose $1.3
-								billion (1.2 billion euro) in revenue this year because it’s
-								unable tos ell the...
-							</p>
-							<a class="btn-go" href="">
-								<img src="assets/img/arrow-right.svg" alt="readmore" />
-							</a>
-						</div>
-					</div>
-					<div class="go">
-						<a href="">
-							<img src="assets/img/arrow-right.svg" alt="readmore" />
-						</a>
-					</div>
-				</article>
 			</section>
-
-			<section id="trend" class="trend">
-				<h2>Trends</h2>
-				<article class="box">
-					<div class="no">Music</div>
-					<div class="trend-article article">
-						<img src="assets/img/trend-content-1.jpg" alt="" />
-						<div class="content-desc">
-							<h3>Skrillex Announces New Album ‘Quest for Fire’</h3>
-							<p>
-								After spending the first weeks of 2023 torridly releasing
-								singles, Skrillex has revealed that his new album, 'Quest for
-								Fire,' is arriving ......
-							</p>
-							<a class="btn-go" href="">
-								<img src="assets/img/arrow-right.svg" alt="readmore" />
-							</a>
+			<section id="news">
+				<h1 class="header-title">News</h1>
+				<div class="content-news">
+					<article class="card-news">
+						<div class="image-news">
+							<img
+								src="./assets/img/news-content-1.jpg"
+								alt="news image"
+							/>
 						</div>
-					</div>
-					<div class="go">
-						<a href="">
-							<img src="assets/img/arrow-right.svg" alt="readmore" />
-						</a>
-					</div>
-				</article>
-				<article class="box">
-					<div class="no">Esports</div>
-					<div class="trend-article article">
-						<img src="assets/img/trend-content-2.jpg" alt="" />
-						<div class="content-desc">
-							<h3>Masters 2023 is Coming to Japan!</h3>
-							<p>
-								VALORANT Masters 2023 will be held in Tokyo, the capital city of
-								Japan, as announced by Riot Games on the nation's official
-								VALORANT channel ...
+						<div class="text-news">
+							<h1 class="title-news">
+								What caused the earth quake in turkey and syria
+							</h1>
+							<p class="desc-news">
+								The area of Turkey and Syria that has been
+								hardest hit by Monday's 7.8-magnitude....
 							</p>
-							<a class="btn-go" href="">
-								<img src="assets/img/arrow-right.svg" alt="readmore" />
-							</a>
+							<div class="link-news">
+								<a href="">
+									<span>Read Now</span>
+									<img src="./assets/img/arrow-right.svg" />
+								</a>
+							</div>
 						</div>
-					</div>
-					<div class="go">
-						<a href="">
-							<img src="assets/img/arrow-right.svg" alt="readmore" />
-						</a>
-					</div>
-				</article>
-				<article class="box">
-					<div class="no">Technology</div>
-					<div class="trend-article article">
-						<img src="assets/img/trend-content-3.jpg" alt="" />
-						<div class="content-desc">
-							<h3>ChatGPT: New AI chatbot has everyone talking to it</h3>
-							<p>
-								A new chatbot has passed one million users in less than a week,
-								the project behind it says. ChatGPT was publicly released on
-								Wednesday by ...
+					</article>
+					<article class="card-news">
+						<div class="image-news">
+							<img
+								src="./assets/img/news-content-2.jpg"
+								alt="news image"
+							/>
+						</div>
+						<div class="text-news">
+							<h1 class="title-news">
+								No new Covid variants emerged during China's
+								recent outbreak: Lancet study
+							</h1>
+							<p class="desc-news">
+								The results represent a snapshot of the...
 							</p>
-							<a class="btn-go" href="">
-								<img src="assets/img/arrow-right.svg" alt="readmore" />
-							</a>
+							<div class="link-news">
+								<a href="">
+									<span>Read Now</span>
+									<img src="./assets/img/arrow-right.svg" />
+								</a>
+							</div>
 						</div>
-					</div>
-					<div class="go">
-						<a href="">
-							<img src="assets/img/arrow-right.svg" alt="readmore" />
-						</a>
-					</div>
-				</article>
+					</article>
+					<article class="card-news">
+						<div class="image-news">
+							<img
+								src="./assets/img/news-content-3.jpg"
+								alt="news image"
+							/>
+						</div>
+						<div class="text-news">
+							<h1 class="title-news">
+								Adidas says dropping Kanye West could cost it
+								more than $1 billion in sales
+							</h1>
+							<p class="desc-news">
+								The company warned Thursday that it’s expected
+								to lose $1.3 billion...
+							</p>
+							<div class="link-news">
+								<a href="">
+									<span>Read Now</span>
+									<img src="./assets/img/arrow-right.svg" />
+								</a>
+							</div>
+						</div>
+					</article>
+					<article class="card-news">
+						<div class="image-news">
+							<img
+								src="./assets/img/news-content-4.jpg"
+								alt="news image"
+							/>
+						</div>
+						<div class="text-news">
+							<h1 class="title-news">
+								Telkom's "Merah Putih 2" Satellite Officially
+								Enters Orbit
+							</h1>
+							<p class="desc-news">
+								The Merah Putih 2 satellite belonging to PT
+								Telkom Indonesia (Persero) Tbk (TLKM)...
+							</p>
+							<div class="link-news">
+								<a href="">
+									<span>Read Now</span>
+									<img src="./assets/img/arrow-right.svg" />
+								</a>
+							</div>
+						</div>
+					</article>
+				</div>
 			</section>
+			<section id="trends">
+				<h1 class="header-title">Trends</h1>
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="content">
+								<div class="image">
+									<img
+										src="./assets/img/trend-content-1.jpg"
+										alt="trend image"
+									/>
+								</div>
+								<a class="desc">
+									<h2 class="title">
+										Apple Vision Pro available in the U.S.
+										on February 2
+									</h2>
+									<p class="text">
+										CUPERTINO, CALIFORNIA Apple today
+										announced Apple Vision Pro will be
+										available beginning Friday, February 2,
+										at all U.S. Apple Store ...
+									</p>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="content">
+								<div class="image">
+									<img
+										src="./assets/img/trend-content-2.jpg"
+										alt="trend image"
+									/>
+								</div>
+								<a class="desc">
+									<h2 class="title">
+										Masters 2023 is Coming to Madrid!
+									</h2>
+									<p class="text">
+										Get ready for Masters Madrid! The
+										inaugural global event of the 2024
+										VALORANT Champions Tour will bring
+										together eight top teams, each ...
+									</p>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="content">
+								<div class="image">
+									<img
+										src="./assets/img/trend-content-3.jpg"
+										alt="trend image"
+									/>
+								</div>
+								<a class="desc">
+									<h2 class="title">
+										Elon Musk's Neuralink implants brain
+										chip in first human
+									</h2>
+									<p class="text">
+										Elon Musk says Neuralink has implanted
+										its first brain chip in human ... Elon
+										Musk, the billionaire founder of the
+										neurotechnology company ...
+									</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
 
-			<section id="contact" class="contact">
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+					<!-- If we need scrollbar -->
+					<div class="swiper-scrollbar"></div>
+				</div>
+			</section>
+			<section id="contact">
 				<div class="container">
 					<div class="left-side side">
 						<div class="container-title">
@@ -197,7 +232,10 @@
 						</div>
 						<div class="container-platform">
 							<div class="platform">
-								<img src="assets/img/phone.svg" alt="readmore" />
+								<img
+									src="assets/img/phone.svg"
+									alt="readmore"
+								/>
 								<div class="platform-desc">
 									<h3>Phone</h3>
 									<p>089321456</p>
@@ -211,7 +249,10 @@
 								</div>
 							</div>
 							<div class="platform">
-								<img src="assets/img/instagram.svg" alt="readmore" />
+								<img
+									src="assets/img/instagram.svg"
+									alt="readmore"
+								/>
 								<div class="platform-desc">
 									<h3>Instagram</h3>
 									<p>raihannh_25</p>
@@ -221,74 +262,92 @@
 					</div>
 					<div class="right-side side">
 						<form>
-							<div class="container-one">
+							<div class="container-input">
 								<div>
 									<label class="lbel" for="name">Name</label>
-									<input class="iput" type="text" id="name" name="name" />
+									<input
+										class="iput"
+										type="text"
+										id="name"
+										name="name"
+									/>
 								</div>
 								<div>
-									<label class="lbel" for="email">Email</label>
-									<input class="iput" type="email" id="email" name="email" />
+									<label class="lbel" for="email"
+										>Email</label
+									>
+									<input
+										class="iput"
+										type="email"
+										id="email"
+										name="email"
+									/>
 								</div>
 							</div>
-							<label class="lbel" for="mesaage">Message</label>
-							<textarea
-								id="message"
-								name="message"
-								rows="5"
-								cols="30"
-							></textarea>
-							<input type="submit" value="Submit" />
+							<div class="container-textarea">
+								<label class="lbel" for="mesaage"
+									>Message</label
+								>
+								<textarea
+									id="message"
+									name="message"
+									rows="5"
+									cols="30"
+								></textarea>
+							</div>
+							<button type="submit">Send</button>
 						</form>
 					</div>
 				</div>
 			</section>
-			<aside id="about" class="about">
+			<aside id="about">
 				<div class="container">
-					<div class="left-side">
+					<div class="left-side side">
 						<div class="container-title">
-							<h3>About Web</h3>
+							<h3>About</h3>
 							<p>
-								Dear Visitors, <br />
-								Welcome to (up-to-date), your source for the latest trend
-								updates. Our mission is to keep you informed and ahead of the
-								curve with the latest trends in fashion, technology,
-								entertainment, and more. <br /><br />
-								We have designed our website to be easy to navigate and visually
-								appealing, with a focus on delivering high-quality content that
-								is relevant and engaging. Whether you're a trendsetter, a tech
-								enthusiast, or simply interested in staying ahead of the curve,
-								(up-to-date) is the perfect destination for you. <br /><br />
-								Thank you for choosing (up-to-date). We hope you enjoy exploring
-								the latest trends and keeping up with what's happening in the
-								world. If you have any questions, comments, or suggestions,
-								please don't hesitate to reach out to us through our contact
-								page.
+								Welcome to (up-to-date), your source for the
+								latest trend updates. Our mission is to keep you
+								informed and ahead of the curve with the latest
+								trends in fashion, technology, entertainment,
+								and more. <br /><br />
+								We have designed our website to be easy to
+								navigate and visually appealing, with a focus on
+								delivering high-quality content that is relevant
+								and engaging. Whether you're a trendsetter, a
+								tech enthusiast, or simply interested in staying
+								ahead of the curve, (up-to-date) is the perfect
+								destination for you. <br /><br />
+								Thank you for choosing (up-to-date). We hope you
+								enjoy exploring the latest trends and keeping up
+								with what's happening in the world. If you have
+								any questions, comments, or suggestions, please
+								don't hesitate to reach out to us through our
+								contact page.
 							</p>
 						</div>
-						<p></p>
 					</div>
-					<div class="right-side">
-						<div class="container-title">
-							<h3>About the Creator</h3>
-						</div>
+					<div class="right-side side">
 						<div class="container-profile">
 							<img src="assets/img/profile.jpg" alt="profile" />
-							<div class="profile-desc">
-								Hi, I am Raihan Nur Hanif, I live in Jatinangor, a student of
-								Informatic Engineering at Widyatama University. My passion in
-								Frontend Development. I hope to continuously learn and improve
-								my skills, and make a positive impact in the tech industry.
-								Thank you!
-							</div>
+							<h1>Creator</h1>
+							<p>
+								Hi, I am Raihan Nur Hanif, I live in Jatinangor,
+								a student of Informatic Engineering at Widyatama
+								University. My passion in Frontend Development.
+								I hope to continuously learn and improve my
+								skills, and make a positive impact in the tech
+								industry. Thank you!
+							</p>
 						</div>
 					</div>
 				</div>
 			</aside>
 		</main>
-
 		<footer>
-			<p>Copyright © [2023] [raihannh]. All rights reserved.</p>
+			<p>Copyright © [2023] [raihannh25]. All rights reserved.</p>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./assets/javascript/script.js"></script>
 	</body>
 </html>
